@@ -1,11 +1,11 @@
-/* .App {
+.App {
   text-align: center;
-} */
+}
 
-/* .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-} */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,7 +13,7 @@
   }
 }
 
-/* .App-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,11 +22,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
+}
 
-/* .App-link {
+.App-link {
   color: #61dafb;
-} */
+}
 
 @keyframes App-logo-spin {
   from {
@@ -37,16 +37,21 @@
   }
 }
 
-/* my code */
-.App {
-  text-align: initial;
+.title {
+  font-weight: 500;
+  font-size: 3rem;
+  text-decoration: underline;
 }
 
-.App-header {
-  min-height: 100vh;
+.myP {
+  max-width: 600px;
+  margin: 3rem auto;
+  text-align: justify;
+}
+
+.MyNav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 2rem;
+  width: fit-content;
+  margin: auto;
 }
